@@ -1,0 +1,4 @@
+{
+  "coingecko_api_url": "https://api.coingecko.com/api/v3/coins/markets",
+  "currency_api_url": "https://api.coingecko.com/api/v3/simple/price"
+}
