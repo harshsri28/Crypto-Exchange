@@ -10,7 +10,7 @@ module.exports = {
     try {
       logger.info("Came Inside fetch top 100 cryptocurrencies List");
       if (!currencyType) {
-        res
+        return res
           .status(400)
           .send({ ok: false, message: "Please enter currencyType" });
       }

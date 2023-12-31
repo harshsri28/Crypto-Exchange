@@ -20,9 +20,8 @@ module.exports = {
           sparkline: false,
         },
       };
-
       const top100ApiResponse = await axios(option);
-
+      logger.info("Response from getTopCrytoList Api", top100ApiResponse);
       if (top100ApiResponse?.status == apiStatus.SUCCESS) {
         return { ok: true, data: top100ApiResponse.data };
       }
@@ -43,8 +42,12 @@ module.exports = {
           vs_currencies: targetCurrency.toLowerCase(),
         },
       };
-
       const currencyConvertorResponse = await axios(option);
+      logger.info(
+        "Response from currencyConvertor Api",
+        currencyConvertorResponse
+      );
+
       if (currencyConvertorResponse?.status == apiStatus.SUCCESS) {
         if (
           Object.keys(currencyConvertorResponse?.data).length === 0 ||
