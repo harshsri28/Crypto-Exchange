@@ -16,7 +16,7 @@ The API offers two main endpoints:
     "currencyType": "inr"
   }
   ```
-- **Response**: (Truncated for brevity)
+- **Response**:
   ```json
   {
     "ok": true,
