@@ -2,6 +2,10 @@
 
 This API service provides functionalities for retrieving information about cryptocurrencies and performing currency conversion.
 
+## Structure
+<img width="1714" alt="Screenshot 2025-05-17 at 7 08 19 PM" src="https://github.com/user-attachments/assets/02755a09-1266-475d-8390-34ea36ae91e4" />
+
+
 ## Overview
 
 The API offers two main endpoints:
